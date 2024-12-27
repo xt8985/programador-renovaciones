@@ -1,0 +1,36 @@
+export interface Poliza {
+    mes_renovacion: string;
+    des_intermediario: string;
+    id_intermediario: string;
+    id_contratante: string;
+    des_contratante: string;
+    des_segmento_empresa_contratante: string;
+    id_producto: string;
+    des_producto: string;
+    id_version_plan: string;
+    des_version_plan: string;
+    num_poliza: string;
+    id_poliza: string;
+    num_tramite_renovacion: string;
+    fec_inicio_poliza: string;
+    fec_fin_poliza: string;
+    giro: string;
+    des_giro_clasificacion_direccion_riesgo: string;
+    des_nota_inspeccion_rer_direccion_riesgo: string;
+    tip_giro_direccion_riesgo: string;
+    id_estado_poliza: string;
+    tip_produccion_poliza: string;
+    ind_facultativo_poliza: string;
+    ind_fronting_poliza: string;
+    mnt_valor_declarado_direccion_riesgo: string;
+    mnt_suma_asegurada_usd: string;
+    mnt_prima_emitida_usd: string;
+    mnt_prima_np_usd: string;
+    prima_total_reasegurada: string;
+    mnt_prima_retenida: string;
+    mnt_comision_np_usd: string;
+    mnt_total_dscto_reaseg: string;
+    mnt_siniestro_reserva_usd: string;
+    prima_devengada: string;
+    [key: string]: string;
+}

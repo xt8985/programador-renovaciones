@@ -1,0 +1,24 @@
+const TREC_LIMITE_SINIESTRALIDAD = 0.3;
+const TREC_LIMITE_FACILITY = 5000000;
+const TREC_PLANES_AUTOMATICO = [
+    {
+        "PROD": 3301,
+        "PLAN": 40,
+        "REVISION": 2,
+        "CONCATENADO": 3301040002,
+        "DESCRIPCION": "TREC SAS US$. (2019.09.01)-SAS"
+    },
+    {
+        "PROD": 3301,
+        "PLAN": 40,
+        "REVISION": 6,
+        "CONCATENADO": 3301040006,
+        "DESCRIPCION": "TREC SAS US$. (2019.09.01)-SAS"
+    }
+];
+
+export {
+    TREC_LIMITE_SINIESTRALIDAD,
+    TREC_LIMITE_FACILITY,
+    TREC_PLANES_AUTOMATICO
+};
